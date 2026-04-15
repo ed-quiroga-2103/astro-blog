@@ -9,6 +9,7 @@ content:
     view:
       fields: [ title, draft, date ]
     fields:
+      - { name: coverImage, label: coverImage, type: string }
       - { name: author, label: Author, type: string }
       - { name: pubDatetime, label: Date, type: date }
       - { name: modDatetime, label: Date, type: date }
